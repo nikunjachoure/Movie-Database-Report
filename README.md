@@ -85,7 +85,7 @@ Table.AddColumn(#"Changed Type1", "Cast", each Text.Combine({[actor_1_name], " ,
 
 - Step 18 : Create Actors page
     - Create 4 visualizations along with 3 slicers for "Language", "Actor" and "Country" as shown in the snapshot below
-![Summary_Page](https://github.com/nikunjachoure/movie_database_report/blob/main/actors.png?raw=true)
+![Summary_Page](https://github.com/nikunjachoure/Movie-Database-Report/blob/main/actors.png?raw=true)
 <p align="center">Snapshot of Actor Page</p>
 
 - Step 19 : Create the Genre page as shown in the snapshot below
