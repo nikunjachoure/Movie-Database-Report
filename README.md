@@ -33,7 +33,7 @@ Dataset Link - https://github.com/kishan0725/AJAX-Movie-Recommendation-System-wi
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then changed type of this column to percentage. 
 
-- Step 6 : I combined actor1, actor2, and actor3 columns into one column named Cast by using concatenate function
+- Step 6 : Cobmine actor_1_name, actor_2_name, and actor_3_name columns into one column named "Cast" by using concatenate function
 
 ```
 Table.AddColumn(#"Changed Type1", "Cast", each Text.Combine({[actor_1_name], " , ", [actor_2_name], " , ", [actor_3_name]}))
@@ -41,7 +41,7 @@ Table.AddColumn(#"Changed Type1", "Cast", each Text.Combine({[actor_1_name], " ,
 
 - Step 7 : Create an Index column (from 1) by choosing index column from Add Column tab. 
 - Step 8 : Create a duplicate of Movie_Data after performing Steps 3 to Step 7 and name it Actor_Data
-- Step 9 : Keep only Index, actor_1_name, actor_1_name, actor_1_name delete rest of the columns from Actor_Data
+- Step 9 : Keep only Index, actor_1_name, actor_2_name, actor_3_name delete rest of the columns from Actor_Data
 - Step 11 : Select all columns and use Unpivot columns option in Tranform tab to map the index to each actor. Now we have only three columns. Rename the value column as Actors and delete the attribute column. Remove all emplty columns from Actor column
 - Step 12 : Perform Steps 7 to Step 9 for Genre column.
 - Step 13 : Split the Genre column by using delimiter "|". Then perform Step 11 to map multiple genres to index.
