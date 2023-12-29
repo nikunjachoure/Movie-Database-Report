@@ -73,12 +73,24 @@ Table.AddColumn(#"Changed Type1", "Cast", each Text.Combine({[actor_1_name], " ,
     - Add a stacked column-chart for Movies by Rating
     - Add a stacked bar-chart to show top 5 most user reviewed movies by IMDB Rating. Use Top N filter on "Movie Title" field using "Total User Reviews" measure
     - Add a area-chart to show total movies by release year and by color.
+
+![Summary_Page](https://raw.githubusercontent.com/nikunjachoure/movie_database_report/main/summary.png)
+<p align="center">Snapshot of Summary Page</p>
+
 - Step 17 : Create the Directors page
     - Add the visualizations based on the Director's snapshot below
     - Create two slicers for "Country" and "Language" to filter the charts according to these slicers.
+![Summary_Page](https://github.com/nikunjachoure/movie_database_report/blob/main/directors.png?raw=true)
+<p align="center">Snapshot of Director Page</p>
+
 - Step 18 : Create Actors page
     - Create 4 visualizations along with 3 slicers for "Language", "Actor" and "Country" as shown in the snapshot below
+![Summary_Page](https://github.com/nikunjachoure/movie_database_report/blob/main/actors.png?raw=true)
+<p align="center">Snapshot of Actor Page</p>
+
 - Step 19 : Create the Genre page as shown in the snapshot below
+![Summary_Page](https://github.com/nikunjachoure/movie_database_report/blob/main/genre.png?raw=true)
+<p align="center">Snapshot of Genre Page</p>
 
 ### Creating clickable buttons
 - Step 20 : Add a navigation button ("Right arrow"), which when clicked will take you to the next consecutive page. Add a hovering effects, action and appropriate tooltip.
@@ -91,5 +103,9 @@ Table.AddColumn(#"Changed Type1", "Cast", each Text.Combine({[actor_1_name], " ,
     - Select Bookmark and Selection from the View tab in the toolbar. 
     - Create three Bookmarks for each page (one to view control, one to hide controls and one for resetting the controls)
     - Make sure the data is not selected in Bookmarks, in-order to retain slicers information to the correponding visualizations
+![Summary_Page](https://github.com/nikunjachoure/movie_database_report/blob/main/control_panel.png?raw=true)
+<p align="center">Snapshot of Control Panel</p>
+
 - Step 22 : Create a Reset-filter button for reverting to the default state of all visualizations. In this case, make sure the data is enabled in the Bookmarks.
+
 
