@@ -95,7 +95,7 @@ Table.AddColumn(#"Changed Type1", "Cast", each Text.Combine({[actor_1_name], " ,
 ### Creating clickable buttons
 - Step 20 : Add a navigation button ("Right arrow"), which when clicked will take you to the next consecutive page. Add a hovering effects, action and appropriate tooltip.
 - Step 21 : Create a custom Control Panel
-    - Create a custom icon using powerpoint (or you can donwload any relevant icon)
+    - Create a custom icon using powerpoint (or you can download any relevant icon)
     - Add a rectangle and format it to match the theme
     - Add 5 buttons (4 for each page and one to close the Control Panel)
     - Add 5 slicers along with the buttons
