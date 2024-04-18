@@ -29,7 +29,7 @@ Dataset Link - https://github.com/kishan0725/AJAX-Movie-Recommendation-System-wi
 - Step 4 : Renamed few columns like 'num_critic_for_review' as 'Critic Reviews'. This step can be performed as per personal preferences.
 - Step 5 : Created a new custom column 'Profit %' using the below formula
 ```
-[Box Office Revenue] - [Movie Budget] / [Movie Budget]
+[Box Office Revenue] - [Movie Revenue] / [Movie Budget]
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then changed type of this column to percentage. 
 
