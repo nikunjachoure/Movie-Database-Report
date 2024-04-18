@@ -33,7 +33,7 @@ Dataset Link - https://github.com/kishan0725/AJAX-Movie-Recommendation-System-wi
 ```
 &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; Then changed type of this column to percentage. 
 
-- Step 6 : Cobmine actor_1_name, actor_2_name, and actor_3_name columns into one column named "Cast" by using concatenate function
+- Step 6 : Combine actor_1_name, actor_2_name, and actor_3_name columns into one column named "Cast" by using concatenate function
 
 ```
 Table.AddColumn(#"Changed Type1", "Cast", each Text.Combine({[actor_1_name], " , ", [actor_2_name], " , ", [actor_3_name]}))
